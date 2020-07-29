@@ -1,0 +1,21 @@
+.EditTab .nav {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+    .EditTab .nav > li > a {
+        padding: 5px 10px;
+        background-color: #ffe0b2;
+    }
+
+.EditTab .nav > li {
+    display: inline-block;
+    float: none;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: black;
+    background-color: white;
+}

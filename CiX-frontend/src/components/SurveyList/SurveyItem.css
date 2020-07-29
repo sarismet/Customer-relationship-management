@@ -1,0 +1,45 @@
+.SurveyItem {
+background-color: whitesmoke;
+  width: 300px;
+  height: 145px;
+}
+
+
+.SurveyItem2 {
+  background:#fff;
+  outline: hidden;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border: 0;
+  box-shadow: 0 3px 6px #FF9A00, 0 3px 6px #FF9A00;
+  color: black;
+  font-size: 0.85em;
+  margin: 35px;
+  outline: none;
+  width: 240px;
+  height: 120px;
+  text-align: center;
+
+}
+
+
+.SurveyItem2:hover {
+    background: #FF9A00;
+    width: 265px;
+    height: 145px;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.SurveyItem2 p{
+    padding-top: 20%;
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+}
+.SurveyItem2:hover p{
+    padding-top: 20%;
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+}

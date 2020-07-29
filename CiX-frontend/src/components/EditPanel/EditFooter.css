@@ -1,0 +1,16 @@
+.EditFooter {
+  text-align: center;
+  padding: 15px 0;
+  border-top: 1px solid #ccc;
+}
+
+.saveButton {
+    color: black;
+    background-color: #ffe0b2;
+    border: 1px solid #ccc;
+}
+
+    .saveButton::after {
+        content: "";
+        background: #90EE90;
+    }

@@ -1,0 +1,51 @@
+.OverviewPage > div {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    align-items: center;
+}
+
+
+.OverviewPage .card {
+    padding: 10px 15px;
+    background-color: #fff;
+    box-sizing: border-box;
+    white-space: nowrap;
+    line-height: 2em;
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+    .OverviewPage .card .title {
+        float: left;
+        text-align: center;
+    }
+
+    .OverviewPage .card .content {
+        float: right;
+        max-width: 50%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: center;
+        align-items: center;
+    }
+
+.OverviewPage footer {
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.OverviewPage .row {
+    align-items: center;
+    text-align: center;
+}
+
+.OverviewPage .col-md-6 {
+    margin-left: 25%;
+}
+
+.OverviewPage .survey {
+    text-align: left;
+}

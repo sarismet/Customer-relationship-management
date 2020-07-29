@@ -1,0 +1,36 @@
+.TopNavBar {
+    margin-bottom: 0;
+    background: rgb(215,109,4);
+    background: linear-gradient(90deg, rgba(215,109,4,1) 4%, rgba(227,158,56,1) 51%, rgba(246,243,246,1) 100%);
+    left: 0;
+    right: 0;
+    height: 40px;
+    position: relative;
+}
+
+.TopNavBar .navbar-brand img {
+    max-height: 100%;
+}
+
+.TopNavBar .logo {
+    width: 40px;
+    height: 40px;
+    margin-top: -12px;
+}
+.TopNavBar .homeButton {
+    border: none;
+    color: white;
+    padding: 15px 90px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.TopNavBar .homeButton:hover {
+    color:whitesmoke;
+
+}
+.user {
+    color: tomato;
+}
+

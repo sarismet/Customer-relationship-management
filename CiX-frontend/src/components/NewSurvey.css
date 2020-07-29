@@ -1,0 +1,18 @@
+.button {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 3px 6px #A09C94, 0 3px 6px #A09C94;
+  font-size: 2em;
+    position: relative;
+    width: 250px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    align-content: center;
+}
+
+
+.button:hover {
+  background: #FF9A00;
+    transition: 0.3s;
+}

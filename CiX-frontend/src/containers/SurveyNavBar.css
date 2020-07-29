@@ -1,0 +1,27 @@
+.SurveyNavBar {
+  margin-bottom: 20px;
+  background-color: #fff;
+  
+}
+
+    .SurveyNavBar .nav-pills > li > a {
+        border-radius: 0;
+        color: #ffb74d;
+        border-bottom: 3px solid transparent;
+    }
+
+
+    .SurveyNavBar .nav-pills {
+        margin-left:35%;
+    }
+
+.SurveyNavBar .nav-pills > li > a:hover, .SurveyNavBar .nav-pills > li > a:focus {
+    color: #212121;
+    background-color: transparent;
+}
+
+.SurveyNavBar .nav-pills > li.active > a, .SurveyNavBar .nav-pills > li.active > a:hover, .SurveyNavBar .nav-pills > li.active > a:focus {
+    color: #212121;
+    background-color: transparent;
+    border-bottom: 3px solid #ffb74d;
+}

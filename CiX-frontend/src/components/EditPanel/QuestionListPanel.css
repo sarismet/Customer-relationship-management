@@ -1,0 +1,19 @@
+.QuestionListPanel {
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.QuestionListPanel > h4{
+    padding-left:35%;
+}
+
+.QuestionList {
+  overflow: hidden;
+}
+
+.QuestionList > a {
+  margin: 1%;
+  float: none;
+  width: 48%;
+  background-color: #ffe0b263;
+}
